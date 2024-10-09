@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->integer('discount');
-            $table->string('valid_unit');
+            $table->string('valid_until');
             $table->timestamps();
         });
     }
